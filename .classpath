@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/jai_imageio-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="libs/swingx-1.0.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="libs/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="libs/sikulixapi.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-java-2.47.1-srcs.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-java-2.47.1.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-server-standalone-2.47.1.jar"/>
+	<classpathentry kind="lib" path="libs/testng-6.9.4.jar"/>
+	<classpathentry kind="lib" path="libs/reportng-1.1.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

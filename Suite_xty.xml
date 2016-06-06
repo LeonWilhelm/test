@@ -1,0 +1,28 @@
+<suite name="eloancn_xty">
+	<listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	<!-- <test name="debit" >
+		<classes>
+			<class name="com.eloancn.suites.debit.Debit"/>
+		</classes>
+	</test> -->
+	<test name="credit" >
+		<classes>
+			<!--<class name="com.eloancn.suites.credit.Credit"/>  -->
+			<class name="com.eloancn.suites.credit.Credit2"/>
+			<class name="com.eloancn.suites.credit.Login"/>
+		</classes>
+	</test>
+   <test name="debentureTransfer" >
+		<classes>
+			<class name="com.eloancn.suites.debentureTransfer.DebentureTransfer"/><!-- 散标投资 -->
+		</classes>
+	</test>
+	<test name="forum" >
+		<classes>
+			<class name="com.eloancn.suites.forum.Forum"/>
+		</classes>
+	</test>
+</suite>

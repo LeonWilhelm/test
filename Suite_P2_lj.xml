@@ -1,0 +1,15 @@
+<suite name="eloancn">
+    <listeners>
+     	<listener class-name="com.eloancn.shared.common.TestngListener" />
+     	<listener class-name="com.eloancn.shared.common.RetryListener" />
+	</listeners>    
+	<test name="P2_lj" >
+		<classes>	 
+		    <class name="com.eloancn.suites.debit.Debit_P1"/>
+			<class name="com.eloancn.suites.debit.Debit_P2"/>
+			<class name="com.eloancn.suites.credit.InvestmentList_P2"/> 
+			<class name="com.eloancn.suites.credit.InvestmentList_P2_2"/>
+			<class name="com.eloancn.suites.myAccount.SBInvestment_P2"/>
+		</classes>
+	</test>	
+</suite>

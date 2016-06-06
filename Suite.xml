@@ -1,0 +1,43 @@
+﻿<suite name="eloancn">
+
+	<test name="credit" >
+		<classes>
+			<class name="com.eloancn.suites.credit.ECunBao"/><!-- 江渤洋  翼存宝 -->
+			<class name="com.eloancn.suites.credit.InvestmentList"/><!-- 江渤洋  投资列表 -->
+			<class name="com.eloancn.suites.credit.CreditAssignment"/><!-- 刘京  债权转让-->
+			<class name="com.eloancn.suites.credit.EStarPlan"/><!-- 刘京   翼星计划-->
+			<!--<class name="com.eloancn.suites.credit.Credit"/>--><!-- 徐天元   散标投资注册流程-->
+			<class name="com.eloancn.suites.credit.Credit2"/><!-- 徐天元   散标投资-->
+			<class name="com.eloancn.suites.credit.Login"/><!-- 徐天元   散标投资登录-->
+		</classes>
+	</test>
+	<test name="index" >
+		<classes>
+			<class name="com.eloancn.suites.index.ECunBao"/><!-- 江渤洋  首页翼存宝-->
+			<class name="com.eloancn.suites.index.IncomeCalculator"/><!-- 江渤洋  首页收益计算器-->
+			<class name="com.eloancn.suites.index.Home"/><!-- 江渤洋  首页-->
+		</classes>
+	</test>
+	
+	<test name="myAccount" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.MyAccount"/><!-- 刘京  我的账户-->
+		</classes>
+	</test>
+	
+	<test name="debentureTransfer" >
+		<classes>
+			<class name="com.eloancn.suites.debentureTransfer.DebentureTransfer"/><!-- 徐天元   散标投资新手专区-->
+		</classes>
+	</test> 
+	<test name="forum" >
+		<classes>
+			<class name="com.eloancn.suites.forum.Forum"/><!-- 徐天元  论坛 -->
+		</classes>
+	</test>
+	<!--<test name="debit" >
+		<classes>
+			<class name="com.eloancn.suites.debit.Debit"/>--><!-- 徐天元   借入流程-->
+	    <!--</classes>
+	 </test>-->
+</suite>

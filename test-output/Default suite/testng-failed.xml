@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.eloancn.suites.myAccount.Guidance">
+        <methods>
+          <include name="guidance"/>
+        </methods>
+      </class> <!-- com.eloancn.suites.myAccount.Guidance -->
+      <class name="com.eloancn.suites.myAccount.Register">
+        <methods>
+          <include name="init"/>
+          <include name="telRegister"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.eloancn.suites.myAccount.Register -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

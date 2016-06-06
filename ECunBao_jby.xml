@@ -1,0 +1,13 @@
+<suite name="EStar">
+	<test name="P1" >
+		<classes>
+			<class name="com.eloancn.suites.index.ECunBao_P1"/>
+			<class name="com.eloancn.suites.myAccount.ECunBao_P1"/>
+		</classes>
+	</test>
+	<test name="P2" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.MyExperience_P2"/>
+		</classes>
+	</test>
+</suite>

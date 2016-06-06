@@ -1,0 +1,11 @@
+<suite name="autoBid">
+	<listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	<test name="P3" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.AutoBid_P3"/>
+		</classes>
+	</test>
+</suite>

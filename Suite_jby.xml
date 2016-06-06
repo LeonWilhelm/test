@@ -1,0 +1,23 @@
+
+<suite name="eloancn_jby" preserve-order="true">
+    <listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		 <!-- <listener class-name="com.eloancn.shared.common.RetryListener"/>-->
+	</listeners>
+	
+	<test name="credit" >
+		<classes>
+			<class name="com.eloancn.suites.credit.ECunBao"/>
+			<class name="com.eloancn.suites.credit.InvestmentList"/>
+		</classes>
+	</test>
+	
+    	<test name="index" >
+		<classes>
+			<class name="com.eloancn.suites.index.ECunBao"/>
+			<class name="com.eloancn.suites.index.IncomeCalculator"/>
+			<class name="com.eloancn.suites.index.Home"/><!-- IE下不测试 -->
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<suite name="login">
+	<listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	<test name="P1" >
+		<classes>
+			<class name="com.eloancn.suites.credit.Login_P1"/>
+		</classes>
+	</test>
+	<test name="P2" >
+		<classes>
+			<class name="com.eloancn.suites.credit.Login_P2"/>
+		</classes>
+	</test>
+</suite>

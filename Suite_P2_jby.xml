@@ -1,0 +1,11 @@
+<suite name="eloancn_P2">
+    <listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	<test name="myAccount" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.MyAccount_P2"/>
+		</classes>
+	</test>
+</suite>

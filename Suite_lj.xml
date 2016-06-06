@@ -1,0 +1,13 @@
+<suite name="eloancn">
+    <listeners>
+     	<listener class-name="com.eloancn.shared.common.TestngListener" />
+     	<listener class-name="com.eloancn.shared.common.RetryListener" />
+	</listeners>        
+	<test name="lj" >
+		<classes>
+			<class name="com.eloancn.suites.credit.CreditAssignment"/>
+			<class name="com.eloancn.suites.myAccount.MyAccount"/>
+			<class name="com.eloancn.suites.credit.EStarPlan"/>
+		</classes>
+	</test>
+</suite>

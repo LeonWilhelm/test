@@ -1,0 +1,10 @@
+<suite name="eloancn_tesila">
+	<test name="tesila" >
+		<classes>
+			<class name="com.eloancn.suites.function.TeSiLa"/>
+		</classes>
+		<classes>
+			<class name="com.eloancn.suites.function.TuiGuang"/>
+		</classes>
+	</test>
+</suite>

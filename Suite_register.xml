@@ -1,0 +1,16 @@
+<suite name="eloancn_register">
+	<listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	 <test name="debit" >
+		<classes>
+			<class name="com.eloancn.suites.debit.Debit"/>
+		</classes>
+	</test>
+	<test name="credit" >
+		<classes>
+			<class name="com.eloancn.suites.credit.Credit"/>
+		</classes>
+	</test>
+</suite>

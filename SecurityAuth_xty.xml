@@ -1,0 +1,22 @@
+<suite name="SecurityAuth">
+    <listeners>
+		<listener class-name="com.eloancn.shared.common.TestngListener" />
+		<listener class-name="com.eloancn.shared.common.RetryListener"/>
+	</listeners>
+	<test name="P1" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P1"/>
+		</classes>
+	</test>
+	<test name="P2" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P2"/>
+		</classes>
+	</test>
+	<test name="P3" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P3"/>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P3_2"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="eloancn" duration-ms="97422" started-at="2015-04-27T08:26:10Z" finished-at="2015-04-27T08:27:47Z">
+    <groups>
+    </groups>
+    <test name="myAccount" duration-ms="97422" started-at="2015-04-27T08:26:10Z" finished-at="2015-04-27T08:27:47Z">
+      <class name="com.eloancn.suites.myAccount.LoginAndRegister">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.eloancn.suites.myAccount.LoginAndRegister@7c3885]" name="init" is-config="true" duration-ms="89763" started-at="2015-04-27T16:24:40Z" finished-at="2015-04-27T16:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.eloancn.suites.myAccount.LoginAndRegister@7c3885]" name="login" duration-ms="97406" started-at="2015-04-27T16:26:10Z" finished-at="2015-04-27T16:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.eloancn.suites.myAccount.LoginAndRegister@7c3885]" name="close" is-config="true" duration-ms="296" started-at="2015-04-27T16:27:47Z" finished-at="2015-04-27T16:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.eloancn.suites.myAccount.LoginAndRegister -->
+    </test> <!-- myAccount -->
+  </suite> <!-- eloancn -->
+</testng-results>

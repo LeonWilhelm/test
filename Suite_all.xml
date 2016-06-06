@@ -1,0 +1,78 @@
+<suite name="eloancn">
+	<listeners>
+     	<listener class-name="com.eloancn.shared.common.TestngListener" />
+     	<listener class-name="com.eloancn.shared.common.RetryListener" />
+	</listeners>
+<test name="Login_xty" >
+		<classes>
+			<class name="com.eloancn.suites.credit.Login_P1"/>
+			<class name="com.eloancn.suites.credit.Login_P2"/>
+		</classes>
+	</test>
+	<test name="AT_xty" >
+		<classes>
+			<class name="com.eloancn.suites.debit.Debit"/>
+			<class name="com.eloancn.suites.credit.Credit"/>
+			<class name="com.eloancn.suites.credit.Credit2"/>
+			<class name="com.eloancn.suites.credit.Login"/>
+			<class name="com.eloancn.suites.debentureTransfer.DebentureTransfer"/>
+			<class name="com.eloancn.suites.forum.Forum"/>
+		</classes>
+	</test>
+	<test name="AT_jby" >
+		<classes>
+			<!--<class name="com.eloancn.suites.credit.ECunBao"/>-->
+			<class name="com.eloancn.suites.credit.InvestmentList"/>
+			<class name="com.eloancn.suites.index.ECunBao"/>
+			<class name="com.eloancn.suites.index.IncomeCalculator"/>
+			<class name="com.eloancn.suites.index.Home"/>
+		</classes>
+	</test>
+	<test name="AT_lj" >
+		<classes>
+			<class name="com.eloancn.suites.credit.CreditAssignment"/>
+			<class name="com.eloancn.suites.myAccount.MyAccount"/>
+			<class name="com.eloancn.suites.credit.EStarPlan"/>
+		</classes>
+	</test>
+	<test name="jiekuanbiao_lj" >
+		<classes>	 
+			<class name="com.eloancn.suites.debit.Debit_P2"/>
+			<class name="com.eloancn.suites.credit.InvestmentList_P2"/> 
+			<class name="com.eloancn.suites.credit.InvestmentList_P2_2"/>
+			<class name="com.eloancn.suites.myAccount.SBInvestment_P2"/>
+		</classes>
+	</test>	
+	<test name="ECunBao_jby" >
+		<classes>
+			<class name="com.eloancn.suites.index.ECunBao_P1"/>
+			<class name="com.eloancn.suites.myAccount.ECunBao_P1"/>
+			<class name="com.eloancn.suites.myAccount.MyExperience_P2"/>
+		</classes>
+	</test>
+	<test name="EStarPlan_jby" >
+		<classes>
+			<class name="com.eloancn.suites.credit.EStarPlan_P1"/>
+			<class name="com.eloancn.suites.credit.EStarPlan_P2"/>
+			<class name="com.eloancn.suites.credit.EStarPlan_P2_2"/>
+		</classes>
+	</test>
+	<test name="ReCharge_xty" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.Recharge_P2"/>
+		</classes>
+	</test>
+	<test name="SecurityAuth_xty" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P1"/>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P2"/>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P3"/>
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P3_2"/>
+		</classes>
+	</test>
+	<test name="AutoBid_xty" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.AutoBid_P3"/>
+		</classes>
+	</test>
+</suite>

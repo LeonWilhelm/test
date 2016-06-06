@@ -1,0 +1,20 @@
+<suite name="eloancn_P2">
+	<test name="index" >
+		<classes>
+			<class name="com.eloancn.suites.index.Register_P2"/><!-- 徐天元  注册  -->
+		</classes>
+	</test>
+	<test name="credit" >
+		<classes>
+			<class name="com.eloancn.suites.credit.InvestmentList_P2"/><!-- 徐天元  散标投资-->
+			<class name="com.eloancn.suites.credit.EStarPlan_P2_2"/><!-- 徐天元 翼星计划-->
+			<class name="com.eloancn.suites.credit.Login_P2"/><!-- 徐天元 登录 -->
+		</classes>
+	</test>
+	<test name="myAccount" >
+		<classes>
+			<class name="com.eloancn.suites.myAccount.MyAccount_P2"/><!-- 江渤洋  我的账户  -->
+			<class name="com.eloancn.suites.myAccount.SecurityAuth_P2"/><!-- 徐天元  安全认证  -->
+		</classes>
+	</test>
+</suite>

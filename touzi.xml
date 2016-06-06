@@ -1,0 +1,7 @@
+<suite name="eloancn_touzi">
+	<test name="touzi" >
+		<classes>
+			<class name="com.eloancn.suites.function.TouZi"/>
+		</classes>
+	</test>
+</suite>
